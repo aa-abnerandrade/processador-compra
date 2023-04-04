@@ -1,9 +1,7 @@
 package zum;
 
-
 public class Produto {
 	public static int codigoProdutos = 0;
-
 	protected int codigo;
 	protected String item;
 	public int quantidadeUnidades;

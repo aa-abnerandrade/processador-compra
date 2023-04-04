@@ -1,8 +1,6 @@
 package zum;
-
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-
 
 public class Pedido {
 	LocalTime horaAtual = LocalTime.now();
@@ -14,6 +12,12 @@ public class Pedido {
 	protected Produto item;
 	protected boolean statusPedido;
 
+	/**
+	 * Cria um novo objeto Pedido.
+	 *
+	 * @param comprador O cliente que fez o pedido.
+	 * @param item O produto pedido.
+	 */
 	public Pedido(Cliente comprador, Produto item) {
 		quantidadePedidos++;
 
@@ -26,7 +30,6 @@ public class Pedido {
 
 		LocalTime horaAtual = LocalTime.now();
 		System.out.println("Horário do Pedido: " + horaAtual.format(formatadorHora));
-
 	}
 
 }
