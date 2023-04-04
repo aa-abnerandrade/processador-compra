@@ -1,14 +1,19 @@
 package zum;
 
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
 
 public class Pedido {
+	LocalTime horaAtual = LocalTime.now();
+	DateTimeFormatter formatadorHora = DateTimeFormatter.ofPattern("HH:mm:ss");
 
 	static int quantidadePedidos = 0;
 	public int numero;
 	protected Cliente comprador;
 	protected Produto item;
 	protected boolean statusPedido;
-	
+
 	public Pedido(Cliente comprador, Produto item) {
 		quantidadePedidos++;
 
@@ -19,6 +24,9 @@ public class Pedido {
 
 		item.quantidadeUnidades--;
 
+		LocalTime horaAtual = LocalTime.now();
+		System.out.println("Horário do Pedido: " + horaAtual.format(formatadorHora));
+
 	}
-	
+
 }

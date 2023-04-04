@@ -4,7 +4,6 @@ import zum.Zum;
 
 
 public class ZumService {
-	static int quantidadeClientes = 0;
 	private static LocalDateTime ultimaCompra = LocalDateTime.now().minusSeconds(10); // Inicializa com um tempo mais antigo
 
 
@@ -26,8 +25,5 @@ public class ZumService {
 
 		return pedidoProcessado;
 	}
-
-
-
 
 }
