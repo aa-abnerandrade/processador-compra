@@ -31,7 +31,7 @@
 
 Este projeto não tem uma versão executável. Mas você pode fazer um fork deste repositório ou baixá-lo para dar continuidade no teu dispositivo.
 
-Para baixar, <a href = "#">clique aqui</a>.
+Para baixar, <a href="https://github.com/aa-abnerandrade/zum_processacompra/archive/refs/heads/main.zip">clique aqui</a>.
 
 <br><br>
 ## Autoria
