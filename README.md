@@ -6,7 +6,7 @@
 ## Linguagens
 
 <div style="display: flex; max-width: 100%; justify-content: space-around;">
-    <img style="width:30%;" src="./to_readme/Java.png" alt="Logo da Linguagem Java">
+    <img style="width:30%;" src="./to_readme/java.png" alt="Logo da Linguagem Java">
 </div>
 
 <br><br>
