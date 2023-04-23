@@ -1,4 +1,4 @@
-# Zum - Processador de Compra.
+# Zum - Processador de Compra
 
 **Zum - Processador de Compra é um algoritmo simples que visa simular o contexto onde um servidor recebe duas solicitações de um espaço de tempo muito próximo. Aqui trabalhamos com a ideia de um estoque limitado, onde um produto tem apenas 1 unidade em estoque, e seu vendedor precisa garantir que a venda seja realizada a pessoa usuária que primeiro realizar o pedido.**
 
@@ -20,9 +20,7 @@
 ## Screenshot
 
 <div style="display: flex; max-width: 100%; justify-content: space-around;">
-    <img style="height: 300px; width:auto;" src="./to_readme/screenshot-mobile.png" alt="Demostrativo da página utilizando um smartphone">
-    <img style="height: 300px; width: auto;" src="./to_readme/screenshot-tablet.png" alt="Demostrativo da página utilizando um tablet"> 
-   <img style="height: 300px; width: auto;" src="./t./o_readme/screenshot-desktop.png" alt="Demostrativo da página utilizando um Desktop"> 
+    <img style="height: 300px; width:auto;" src="./to_readme/ScreenShot-Console.gif" alt="Demostrativo da página utilizando um smartphone">
 </div>
 
 
